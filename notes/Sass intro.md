@@ -1,6 +1,7 @@
 # SASS and CSS
 
 There are two syntaxs in sass, sass and scss. scss is with {} and look like css with advantages of sass but sass is working without {}.
+
 ##### SASS set-up
 
 Sass is the system where we write code, the the code will be compiled to css. Browser only will be aware of css code. Sass only makes our file easier and development process faster, give ablility to resuse code etc. Because of these reasons we prefer sass. In order to compile sass code we use sass-compiler which is built in node-sass package.
@@ -39,7 +40,7 @@ ul li {
     }
 ```
 
-but if we want .nav and nav-item class we don't have to write our code like above, even in this case we can use nesting 
+but if we want .nav and nav-item class we don't have to write our code like above, even in this case we can use nesting
 
 ```
 .header {
@@ -57,3 +58,6 @@ this will be compiled
 }
 ```
 
+#### SASS fetures
+
+- extend feature
